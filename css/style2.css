@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* div{
+    background-color: red;
+    display: inline;
+}
+
+p{
+    background-color: blue;
+    display: inline;
+}
+
+h1{
+    background-color: teal;
+    display: inline;
+}
+
+span{
+    background-color: brown;
+    display: block;
+} */
+
+.container{
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items : center;
+}
+
+.one{
+    background-color: blue;
+    /* display: inline-block; */
+    width: 25%;
+    height:200px;
+}
+
+.two{
+    background-color: teal;
+    /* display: inline-block; */
+    width: 25%;
+    height:200px;
+}
+
+.three{
+    background-color: yellow;
+    /* display: inline-block; */
+    width: 25%;
+    height:200px;
+}
+
+.four{
+    background-color: green;
+    /* display: inline-block; */
+    width: 25%;
+    height:200px;
+}
