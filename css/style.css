@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color : goldenrod;
 }
 
@@ -16,4 +16,32 @@ h1 {
 
 .text-danger {
     color: red;
+h2{
+    background-color: red;
+}
+
+h3{
+    background-color: teal;
+    margin: 100px;
+    padding: 100px;
+}
+
+h4{
+    background-color: blue;
+} */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   margin-right: 20px;
 }
