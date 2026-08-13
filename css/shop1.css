@@ -1,0 +1,28 @@
+
+
+.end-nav button{
+    border-style: none;
+}
+
+.btn-nav-1{
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-nav-1:hover {
+    background-color: rgb(196, 193, 193);
+    border-radius: 8px;
+}
+
+.btn-nav-2{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+
+@media (min-width: 300px) and (max-width:900px){
+    .hero-left ,.width-self , .hero-right{
+        width: 100% !important;
+    }
+}
