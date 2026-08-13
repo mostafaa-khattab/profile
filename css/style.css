@@ -13,3 +13,7 @@ h1 {
 #gray {
     color: teal
 }
+
+.text-danger {
+    color: red;
+}
