@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 .end-nav button{
     border-style: none;
