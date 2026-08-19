@@ -34,9 +34,15 @@
 
 
 
-var mode = document.querySelector("#themeBtn");
-var navbar = document.querySelector("#navbar");
-var titleHero = document.querySelector("#hero-left-h")
+let mode = document.querySelector("#themeBtn");
+let navbar = document.querySelector("#navbar");
+let titleHero = document.querySelector("#hero-left-h")
+
+let email = document.querySelector("#useremail")
+let password = document.querySelector("#userpassword")
+let login = document.querySelector("#form")
+
+
 
 mode.addEventListener("click" , function(){
     document.body.classList.toggle("bg-dark")
@@ -63,6 +69,28 @@ mode.addEventListener("click" , function(){
 })
 
 
+// login
+login.addEventListener('submit' , function(e){
+    e.preventDefault();
+
+    if(email.value == "admin@admin.com" && password.value == "1234"){
+        window.location.href = "index.html";
+    }else{
+        alert("Email or Password wrong")
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,3 +104,87 @@ mode.addEventListener("click" , function(){
 // mode.classList.remove("btn-dark")
 // mode.textContent = "Hello"
 // mode.classList.toggle
+
+
+
+//  =    ==     === 
+// var num1 = null // object
+// var num2 = undefined // undefined
+
+// if(num1 === num2){
+//     console.log("Equal")
+// }else{
+//     console.log("not Equal")
+// }
+
+
+
+
+// arithmetic operator
+// + , - , * , / , ** , ++ , -- , +5 , %
+
+// comparison (logical) operator 
+// > , < , == , === , != , !== , &&(AND) , ||(OR) , <= , >=
+
+// 1- re-useable
+// 2- 
+
+// argument , parameter , calling
+// function hello(name,age){
+//     console.log('Hello Every One' , name , age)
+// }
+
+// hello("ahmed", 20)
+
+
+
+// var , let , const
+// let x = 10;
+// x = 15
+// console.log(x);
+
+
+
+
+
+
+
+
+
+
+// var x = 10;
+
+// let y = 15
+// const z = 15
+
+// let x = 10;
+// let x = "mostafa";
+
+// console.log(x);
+
+// scope => global scope , loacl scope
+
+// if(true){
+//     let name1 = "ahmed"
+// }
+
+// function hello(name){
+//     var name2 = "ali"
+// }
+
+
+// console.log(name1);
+// console.log(name2);
+
+
+
+
+
+// TDZ ---> let , const (undefinded -> error)
+// var -> undefinded
+// console.log(y); 
+// let y = 10;
+// console.log(y)
+
+
+
