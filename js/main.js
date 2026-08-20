@@ -84,6 +84,50 @@ login.addEventListener('submit' , function(e){
 
 
 
+// array , loop , object
+
+let stu1 = "ahmed"
+let stu2 = "moahemd"
+let stu3 = "mostafa"
+
+//      index       0          1            2
+
+// allStudent.push("ali" , "aya" , "basmala")
+// allStudent.pop()
+// allStudent.shift()
+// allStudent.unshift("hello")
+// allStudent.length
+// allStudent.includes("ali")
+// allStudent.indexOf("ali")
+// splice , slice
+
+// allStudent.splice(1,1,"hello")
+// console.log(allStudent);
+
+
+/** loop
+ * for , do while , while ,for in , forEach , for of 
+ * Array Methods : map , filter , reduce , find , findIndex , some , every , flatMap
+*/
+
+
+
+//   start conation  step
+
+
+let allStudent = ["ahmed" , "mohamed" , "mostafa"]
+
+// for( let i = 0 ;  i < allStudent.length  ; i++  ){
+//     console.log( allStudent[i] )
+// }
+
+// allStudent.forEach( function(habiba) {
+//     console.log(habiba)
+// } )
+
+
+// error , infinit loop , hello (1) , hello(10)
+
 
 
 
